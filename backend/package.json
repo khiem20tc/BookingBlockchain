@@ -1,0 +1,27 @@
+{
+  "name": "appdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khiem20tc/BookingBlockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khiem20tc/BookingBlockchain/issues"
+  },
+  "homepage": "https://github.com/khiem20tc/BookingBlockchain#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4",
+    "solc": "^0.7.3"
+  }
+}

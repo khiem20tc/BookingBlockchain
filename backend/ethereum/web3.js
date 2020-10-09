@@ -8,7 +8,8 @@ if (typeof window !== 'undefined' && typeof window.web3 !== 'undefined'){
 } else {
     //we are not in the browser or don't has metamask
     const provider = new Web3.providers.HttpProvider(
-        'https://ropsten.infura.io/v3/2ee8969fa00742efb10051fc923552e1'
+        //'https://ropsten.infura.io/v3/2ee8969fa00742efb10051fc923552e1'
+        'https://node.credential.asia'
     );
 
     web3 = new Web3(provider);

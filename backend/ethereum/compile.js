@@ -6,7 +6,7 @@ const publicJsonPath = path.resolve(__dirname, '../public/json');
 
 fs.removeSync(publicJsonPath);
 
-const votePath = path.resolve(__dirname, 'contracts', 'Vote.sol');
+const votePath = path.resolve(__dirname, 'contracts', 'ERC725Order.sol');
 
 const source = fs.readFileSync(votePath, 'utf8');
 
